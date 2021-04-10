@@ -51,8 +51,9 @@ H0 : The slope of the linear model is zero, or m = 0.
 Ha : The slope of the linear model is not zero, or m ≠ 0.
 
 The linear regression model for our dataset would be
-mpg = 6.267e-00 vl + 1.245e-03 vw + 6.877e-02 sa
-+ 3.546e+00 gc -3.411e-00 AWD -1.040e-02
+
+mpg = 6.267e-00 vl + 1.245e-03 vw + 6.877e-02 sa + 3.546e+00 gc -3.411e-00 AWD -1.040e-02
+
 where vl, vw, sa, gc are vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, respectively.
 
 
