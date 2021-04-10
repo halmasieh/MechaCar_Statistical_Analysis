@@ -106,7 +106,7 @@ Therefore, by comparing the two tables total_summary and lot_summary, it can be 
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="400" height="400" />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="500" height="500" />
 
 
 ## Study Design: MechaCar vs Competition
