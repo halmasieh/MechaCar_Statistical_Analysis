@@ -64,7 +64,7 @@ As shown in the eqaution of multiple linear regression, the coeffients of vl and
 To quantify how well our linear model can be used to predict future observations, our linear regression functions calculate an r-squared value of 0.71 which is close to 1. The coefficient of determination represents how well the regression model approximates real-world data points, and it can be used as a probability metric to determine the likelihood that future data points will fit the linear model.
 
 ## Summary Statistics on Suspension Coils
-By observing total_summary as
+By observing total_summary table as
 
 
 
