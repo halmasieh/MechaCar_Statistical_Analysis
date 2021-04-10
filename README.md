@@ -15,6 +15,7 @@ R will help us by
 
 ## Resources
 Software: [RStudio](https://cran.r-project.org/mirrors.html)
+
 library: tidyverse, dplyr
 
 ## Results
@@ -28,7 +29,7 @@ as you see in the summary output,
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/D1-summary-output.PNG" width="600" height="400"  />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/commit/3669b9fd33db6a29a3ef715a2dfecc7c300cb8a4" width="600" height="400"  />
 
 
 
