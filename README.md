@@ -103,6 +103,27 @@ Therefore, by comparing the two tables total_summary and lot_summary, it can be 
 
 
 ## T-Tests on Suspension Coils
+We use one-sample t-test to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. In other words, the one-sample t-test is used to test the following hypotheses:
+
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+Assuming our significance level is the common 0.05 percent, as shown in the following:
+
+
+
+
+
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="500" height="500" />
+
+
+
+
+
+
+our p-value for manufacturing-lot1 and lot2 are 1 and 0.61 which is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+The result for the manufacturing-lit3 indicate that since the p-value is 0.042 and it is less than the significant level, so we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. 
 
 ## Study Design: MechaCar vs Competition
 
