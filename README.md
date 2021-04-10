@@ -115,7 +115,7 @@ Assuming our significance level is the common 0.05 percent, as shown in the foll
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="500" height="500" />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="400" height="600" />
 
 
 
