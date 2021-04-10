@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Project Overview
-In this analysis, we explore two key skills, essential for success in any analysis in data field, Statistics and R. Statistics is a cornerstone of data analysis and helps contextualize data.
+In this analysis, we explore two key skills, essential for success in data analysis field, Statistics and R. Statistics is a cornerstone of data analysis and helps contextualize data.
 Infact, statistics plays a critical role when it comes to decision making, troubleshooting and resource planning. Therefore in this analysis, we will review summary statistics, design and interpret statistical studies and then explore linear regression models.
 
 In order to bettter grasp the statistical concepts, we explore R developed for data manipulation, statistical analysis and visualization. In fact, over the years, R is one of the most popular tools for data analysis.
