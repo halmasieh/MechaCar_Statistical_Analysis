@@ -70,19 +70,26 @@ By observing total_summary table as
 
 
 
+
 <img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/total_summary.PNG" />
 
 
 
 
+
+
 it is shown that the variance value is 62.29 which does not exceed 100 pounds per square inch. 
+
 In addition, as shown in the column attributed to variance in the lot_summary table as
 
 
 
 
 
+
 <img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/lot_summary.PNG" />
+
+
 
 
 
