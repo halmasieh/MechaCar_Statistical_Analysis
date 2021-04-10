@@ -104,6 +104,11 @@ Therefore, by comparing the two tables total_summary and lot_summary, it can be 
 
 ## T-Tests on Suspension Coils
 
+
+
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="600" height="400" />
+
+
 ## Study Design: MechaCar vs Competition
 
 ## Summary
