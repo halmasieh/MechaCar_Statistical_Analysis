@@ -71,7 +71,7 @@ By observing total_summary table as,
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/total_summary.PNG" />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/total_summary.PNG"  />
 
 
 
@@ -124,6 +124,10 @@ Assuming our significance level is the common 0.05 percent, as shown in the foll
 
 our p-value for manufacturing-lot1 and lot2 are 1 and 0.61 which is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 The result for the manufacturing-lit3 indicate that since the p-value is 0.042 and it is less than the significant level, so we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. 
+
+
+
+
 
 ## Study Design: MechaCar vs Competition
 
