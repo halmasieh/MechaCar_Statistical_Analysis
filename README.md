@@ -71,7 +71,7 @@ By observing total_summary table as,
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/total_summary.PNG" width="500" height="500" />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/total_summary.PNG"  />
 
 
 
@@ -87,7 +87,7 @@ In addition, as shown in the column attributed to variance in the lot_summary ta
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/lot_summary.PNG" width="500" height="500"/>
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/lot_summary.PNG" />
 
 
 
@@ -106,7 +106,6 @@ Therefore, by comparing the two tables total_summary and lot_summary, it can be 
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="500" height="500" />
 
 
 ## Study Design: MechaCar vs Competition
