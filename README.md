@@ -28,7 +28,7 @@ as you see in the summary output,
 
 
 
-<img src="" width="600" height="400"  />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/D1-summary-output.PNG" width="600" height="400"  />
 
 
 
