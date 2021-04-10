@@ -64,6 +64,36 @@ As shown in the eqaution of multiple linear regression, the coeffients of vl and
 To quantify how well our linear model can be used to predict future observations, our linear regression functions calculate an r-squared value of 0.71 which is close to 1. The coefficient of determination represents how well the regression model approximates real-world data points, and it can be used as a probability metric to determine the likelihood that future data points will fit the linear model.
 
 ## Summary Statistics on Suspension Coils
+By observing total_summary as
+
+
+
+
+
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/total_summary.PNG" width="600" height="400"  />
+
+
+
+
+it is shown that the variance value is 62.29 which does not exceed 100 pounds per square inch. 
+In addition, as shown in the column attributed to variance in the lot_summary table as
+
+
+
+
+
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/lot_summary.PNG" width="600" height="400"  />
+
+
+
+
+values of variance for Lot1 and Lot2 are 0.98 and 7.47, respectively which are in the range of less than 100, while the variance for Lot3 experiences the value of 170.29.
+Therefore, by comparing the two tables total summary and lot_summary, it can be concluded that the current manufacturing data meet this design specification for all manufacturing lots in total but it does not apply to individual lots. 
+
+
+
+
+
 
 ## T-Tests on Suspension Coils
 
