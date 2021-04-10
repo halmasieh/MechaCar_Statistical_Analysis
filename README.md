@@ -20,7 +20,7 @@ library: tidyverse, dplyr
 ## Results
 
 ## Linear Regression to Predict MPG
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+1- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 To determine which variables provide a significant contribution to the linear model, we must look at the individual variable p-values.
 as you see in the summary output, 
 
@@ -39,7 +39,7 @@ each Pr(>|t|) value represents the probability that each coefficient contributes
 Despite the number of significant variables, the multiple linear regression model outperformed the simple linear regression. According to the summary output, the r-squared value has the value of 0.7149 in our multiple linear regression model while the p-value remained significant.
 
 
-Is the slope of the linear model considered to be zero? Why or why not?
+2- Is the slope of the linear model considered to be zero? Why or why not?
 
 A good linear regression model should approximate most data points accurately if the dependent and independent variables are strongly correlated. In other words, linear regression can be used as an extension of correlation analysis. In contrast to correlation analysis, which asks whether a relationship exists between variables mpg and the independent variables, linear regression asks if we can predict values for variable mpg using a linear model and values from independent variables.
 
@@ -57,7 +57,7 @@ where vl, vw, sa, gc are vehicle_length, vehicle_weight, spoiler_angle, ground_c
 
 As shown in the eqaution of multiple linear regression, the coeffients of vl and AWD are very small and tend to zero. In other words, comparing the p-values of vw, sa and gc with significant level 0.05% specifies that we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model for the non-random variables vl and gc is not zero.  
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+3- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 To quantify how well our linear model can be used to predict future observations, our linear regression functions calculate an r-squared value of 0.71 which is close to 1. The coefficient of determination represents how well the regression model approximates real-world data points, and it can be used as a probability metric to determine the likelihood that future data points will fit the linear model.
 
 ## Summary Statistics on Suspension Coils
