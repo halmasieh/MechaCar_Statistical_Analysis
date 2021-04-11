@@ -155,9 +155,10 @@ A two-way ANOVA does the same thing, but for two different independent variables
 Regardless of whichever type of ANOVA test we use, the statistical hypotheses of an ANOVA test are the same:
 
 H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+(for example: There is no significant difference in horsepower between all the engin types.) 
 
 Ha : At least one of the means is different from all other groups.
-
+(for example: There is a significant difference in horsepower between at least one engine type and the others.)
 
 - What statistical test would you use to test the hypothesis? And why?
 
