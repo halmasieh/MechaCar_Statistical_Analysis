@@ -171,21 +171,21 @@ To perform our one-way ANOVA test, we answer the following question.
 We use horsepower (the "hp" column) as the dependent measured variable and the number of cylindera (the "cyl" column) as the independent categorical variable. Before doing the test, we must clean our data as follows:
 
 ```diff
-MechaCar_filt <- MechaCar[ , c("hp","cyl")]  
+MechaCar_filt <- MechaCar[ , c("hp","cyl")]  # Filter columns from MechaCar dataset 
 ```
 ```diff
-MechaCar_filt$cyl <- factor(MechaCar_filt$cyl)   
+MechaCar_filt$cyl <- factor(MechaCar_filt$cyl) # Convert numeric column to factor  
 ```
 and the aov function as follows:
 
 ```diff
-aov(hp ~ cyl , data=MechaCar_filt) 
+aov(hp ~ cyl , data=MechaCar_filt) # Compare means across multiple levels
 ```
 
 To retrieve our p-values, we have to wrap our aov() function in a summary() function as follows:
 
 ```diff
-summary(aov(hp ~ cyl , data=MechaCar_filt)) 
+summary(aov(hp ~ cyl , data=MechaCar_filt)) #  Wrap the aov() in a summary()
 ```
 
 Now we have to compare the obtained p-value with significance level. If p-value is smaller than our assumed 0.05 percent significance level. Therefore, we would state that there is sufficient evidence to reject the null hypothesis and accept that there is a significant difference in horsepower between at least one engine type and the others.
