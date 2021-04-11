@@ -135,7 +135,7 @@ As a customer who is interested in buying a car from a car company, the followin
 
 1- The initial cost of buying a car versus the quality received.
 
-2- car fuel consumption on city roads or highways according to the capcity of the car 
+2- Car fuel consumption on city roads or highways according to the capcity of the car 
 and the number of passenger seats.
 
 3- Horse power, number of cylinders and adaptability in any weather
