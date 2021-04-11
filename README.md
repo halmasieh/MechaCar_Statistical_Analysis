@@ -37,7 +37,7 @@ as you see in the summary output,
 
 each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results, vehicle_ length and ground_clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle_ length and ground_clearance have a significant impact on mpg. 
 
-Despite the number of significant variables, the multiple linear regression model outperformed the simple linear regression. According to the summary output, the r-squared value has the value of 0.7149 in our multiple linear regression model while the p-value remained significant.
+Despite the number of significant variables, the multiple linear regression model outperformed the simple linear regression. According to the summary output, the r-squared value has the value of 0.71 in our multiple linear regression model while the p-value remained significant.
 
 
 2- Is the slope of the linear model considered to be zero? Why or why not?
