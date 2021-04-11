@@ -142,7 +142,7 @@ and the number of passenger seats.
 
 4- Cost of maintenance and repairs of the the car
 
-5- Safty rate and options compared to the cars of the same price.
+5- Safty rate and options compared to the cars of the same class.
 
 ...
 
