@@ -130,6 +130,7 @@ We create a statistical study that can quantify how the MechaCar performs agains
 competition. 
 
 - What metric or metrices are you going to test?
+
 As a customer who is interested in buying a car from a car company, the following expectations can be expected:
 1- The initial cost of buying a car versus the quality received.
 2- car fuel consumption on city roads or highways according to the capcity of the car 
