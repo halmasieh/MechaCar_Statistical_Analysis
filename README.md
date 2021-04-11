@@ -170,6 +170,8 @@ To perform our one-way ANOVA test, we answer the following question.
 
 We use horsepower (the "hp" column) as the dependent measured variable and the number of cylindera (the "cyl" column) as the independent categorical variable. Before doing the test, we must clean our data as follows:
 
+<font color="blue"> MechaCar_filt <- MechaCar[,c("hp","cyl")] #filter columns from MechaCar dataset </font>
+
 MechaCar_filt <- MechaCar[,c("hp","cyl")] #filter columns from MechaCar dataset
 
 MechaCar_filt$cyl <- factor(MechaCar_filt$cyl) #convert numeric column to factor
