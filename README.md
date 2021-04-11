@@ -125,11 +125,41 @@ Assuming our significance level is the common 0.05 percent, as shown in the foll
 our p-value for manufacturing-lot1 and lot2 are 1 and 0.61 which is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 The result for the manufacturing-lit3 indicate that since the p-value is 0.042 and it is less than the significant level, so we would have sufficient evidence to reject the null hypothesis and state that the two means are statistically different. 
 
-
-
-
-
 ## Study Design: MechaCar vs Competition
+We create a statistical study that can quantify how the MechaCar performs against the 
+competition. 
+
+- What metric or metrices are you going to test?
+As a customer who is interested in buying a car from a car company, the following expectations can be expected:
+1- The initial cost of buying a car versus the quality received.
+2- car fuel consumption on city roads or highways according to the capcity of the car 
+and the number of passenger seats.
+3- Horse power, number of cylinders and adaptability in any weather
+4- Cost of maintenance and repairs of the the car
+5- Safty rate and options compared to the cars of the same price.
+...
+
+- What is the null hypothesis or alternative hypothesis?
+one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups. (e.g., fuel efficiency of different cars based on vehicle class).
+A two-way ANOVA does the same thing, but for two different independent variables (e.g., vehicle braking distance based on weather conditions and transmission type).
+Regardless of whichever type of ANOVA test we use, the statistical hypotheses of an ANOVA test are the same:
+
+H0 : The means of all groups are equal, or µ1 = µ2 = … = µn.
+
+Ha : At least one of the means is different from all other groups.
+
+Because our samples should not contain bias, we would expect our null hypothesis to be true—our samples should not be statistically different. To confirm, we use the t.test() function.
+
+- What statistical test would you use to test the hypothesis? And why?
+When dealing with large real-world numerical data, we're often interested in comparing the means across more than two samples or groups. The most straightforward way to do this is to use the analysis of variance (ANOVA) test, which is used to compare the means of a continuous numerical variable across a number of groups (or factors in R).
+
+- What data is needed to run the statistical test?
+Before we can apply any statistical test to our data, we must check if there are any assumptions regarding our input dataset. 
+1- The dependent variable is numerical and continuous, and the independent variables are categorical.
+2- The dependent variable is considered to be normally distributed.
+3- The variance among each group should be very similar.
+
+As long as our input data satisfies (or mostly satisfies) the above assumptions, we can use the ANOVA t-test to assert the similarities or differences in our data. 
 
 ## Summary
 We apply statistics and hypothesis testing to analyze a series of datasets. Our analysis include summary statistics, linear regression model, interpretation of the results and statistical tests. All of our statistical analysis is written in RStudio.
