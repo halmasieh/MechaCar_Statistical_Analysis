@@ -163,7 +163,27 @@ Ha : At least one of the means is different from all other groups.
 
 When dealing with large real-world numerical data, we're often interested in comparing the means across more than two samples or groups. The most straightforward way to do this is to use the analysis of variance (ANOVA) test, which is used to compare the means of a continuous numerical variable across a number of groups (or factors in R).
 
-- What data is needed to run the statistical test?
+To perform our one-way ANOVA test, we answer the following question.
+
+" Is there any statistical difference in the horsepower of a vehicle based on its engine type?"
+
+We use horsepower (the "hp" column) as the dependent measured variable and the number of cylindera (the "cyl" column) as the independent categorical variable. Before doing the test, we must clean our data as follows:
+
+MechaCar_filt <- MechaCar[,c("hp","cyl")] #filter columns from MechaCar dataset
+
+MechaCar_filt$cyl <- factor(MechaCar_filt$cyl) #convert numeric column to factor
+
+and the aov function is as follows:
+
+aov(hp ~ cyl,data=MechaCar_filt) #compare means across multiple levels
+
+To retrieve our p-values, we have to wrap our aov()function in a summary() function as follows:
+
+summary(aov(hp ~ cyl,data=MechaCar_filt))
+
+Now we have to compare the obtained p-value with significance level. If p-value is smaller than our assumed 0.05 percent significance level. Therefore, we would state that there is sufficient evidence to reject the null hypothesis and accept that there is a significant difference in horsepower between at least one engine type and the others.
+ 
+ - What data is needed to run the statistical test?
 
 Before we can apply any statistical test to our data, we must check if there are any assumptions regarding our input dataset. 
 
