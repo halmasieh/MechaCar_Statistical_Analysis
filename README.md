@@ -132,12 +132,17 @@ competition.
 - What metric or metrices are you going to test?
 
 As a customer who is interested in buying a car from a car company, the following expectations can be expected:
+
 1- The initial cost of buying a car versus the quality received.
+
 2- car fuel consumption on city roads or highways according to the capcity of the car 
 and the number of passenger seats.
+
 3- Horse power, number of cylinders and adaptability in any weather
+
 4- Cost of maintenance and repairs of the the car
-5- Safty rate and options compared to the cars of the same price.
+
+- Safty rate and options compared to the cars of the same price.
 ...
 
 - What is the null hypothesis or alternative hypothesis?
@@ -156,8 +161,11 @@ When dealing with large real-world numerical data, we're often interested in com
 
 - What data is needed to run the statistical test?
 Before we can apply any statistical test to our data, we must check if there are any assumptions regarding our input dataset. 
+
 1- The dependent variable is numerical and continuous, and the independent variables are categorical.
+
 2- The dependent variable is considered to be normally distributed.
+
 3- The variance among each group should be very similar.
 
 As long as our input data satisfies (or mostly satisfies) the above assumptions, we can use the ANOVA t-test to assert the similarities or differences in our data. 
