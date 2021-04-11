@@ -148,7 +148,9 @@ and the number of passenger seats.
 
 
 - What is the null hypothesis or alternative hypothesis?
-one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups. (e.g., fuel efficiency of different cars based on vehicle class).
+ 
+One-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups. (e.g., fuel efficiency of different cars based on vehicle class).
+
 A two-way ANOVA does the same thing, but for two different independent variables (e.g., vehicle braking distance based on weather conditions and transmission type).
 Regardless of whichever type of ANOVA test we use, the statistical hypotheses of an ANOVA test are the same:
 
@@ -162,6 +164,7 @@ Because our samples should not contain bias, we would expect our null hypothesis
 When dealing with large real-world numerical data, we're often interested in comparing the means across more than two samples or groups. The most straightforward way to do this is to use the analysis of variance (ANOVA) test, which is used to compare the means of a continuous numerical variable across a number of groups (or factors in R).
 
 - What data is needed to run the statistical test?
+
 Before we can apply any statistical test to our data, we must check if there are any assumptions regarding our input dataset. 
 
 1- The dependent variable is numerical and continuous, and the independent variables are categorical.
