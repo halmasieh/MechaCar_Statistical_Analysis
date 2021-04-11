@@ -160,6 +160,7 @@ Ha : At least one of the means is different from all other groups.
 
 
 - What statistical test would you use to test the hypothesis? And why?
+
 When dealing with large real-world numerical data, we're often interested in comparing the means across more than two samples or groups. The most straightforward way to do this is to use the analysis of variance (ANOVA) test, which is used to compare the means of a continuous numerical variable across a number of groups (or factors in R).
 
 - What data is needed to run the statistical test?
