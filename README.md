@@ -103,7 +103,7 @@ Therefore, by comparing the two tables total_summary and lot_summary, it can be 
 
 
 ## T-Tests on Suspension Coils
-We use one-sample t-test to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. In other words, the one-sample t-test is used to test the following hypotheses:
+We use one-sample t-test to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. In other words, we apply one-sample t-test to test the following hypotheses:
 
 H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
 
@@ -115,7 +115,7 @@ Assuming our significance level is the common 0.05 percent, as shown in the foll
 
 
 
-<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="500" height="500" />
+<img src="https://github.com/halmasieh/MechaCar_Statistical_Analysis/blob/main/population1-3.PNG" width="400" height="600" />
 
 
 
