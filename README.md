@@ -142,8 +142,10 @@ and the number of passenger seats.
 
 4- Cost of maintenance and repairs of the the car
 
-- Safty rate and options compared to the cars of the same price.
+5- Safty rate and options compared to the cars of the same price.
+
 ...
+
 
 - What is the null hypothesis or alternative hypothesis?
 one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups. (e.g., fuel efficiency of different cars based on vehicle class).
