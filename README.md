@@ -176,6 +176,10 @@ MechaCar_filt$cyl <- factor(MechaCar_filt$cyl)
 
 and the aov function is as follows:
 
+```diff
+aov(hp ~ cyl , data=MechaCar_filt) in blue
+```
+
 aov(hp ~ cyl , data=MechaCar_filt) 
 
 To retrieve our p-values, we have to wrap our aov() function in a summary() function as follows:
